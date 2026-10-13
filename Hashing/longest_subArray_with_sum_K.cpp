@@ -18,6 +18,7 @@ using namespace std;
 // }
 
 //Better Solution(HASHING METHOD)
+//This better solution is actually an optimal solution in case of an array containing positives, negative and zeroes. But it is just a better solution for an array containing only positives and zeroes.
 int longestSubarray(vector<int> &nums, int k){
     map<int,int> mpp;
     int n=nums.size();
